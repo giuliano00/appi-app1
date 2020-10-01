@@ -12,7 +12,11 @@ xmlhttp.onreadystatechange=function(){
         for(var i=0;i<data.items.length;i++){
             console.log(data.items[i].snippet.title);
         }
+
     }
-}//https://www.youtube.com/watch?v=qbsNAuyo2pM
+
+}
+//links
+//https://www.youtube.com/watch?v=qbsNAuyo2pM
 // pagina de visualización del proyecto con json
 //https://www.googleapis.com/youtube/v3/search?key=AIzaSyAiKq69zlkGWrwQyWr46SVefw42K8kq-zU&channelId=UCekiUWTObDKZnaeS-reYQbg&part=snippet,id&order=date&maxResults=5
